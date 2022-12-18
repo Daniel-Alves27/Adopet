@@ -1,0 +1,87 @@
+.area__de__cadastro {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 24px;
+    right: 24px;
+    top: 340px;
+}
+
+.area__de__cadastro label {
+    font-family: var(--fonte-poppins);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: var(--cinza-escuro);
+    padding-bottom: 4px;
+}
+
+.cadastro___input {
+    width: 312px;
+    height: 40px;
+    border: 1px solid var(--cinza-claro-fundo);
+    border-radius: 6px;
+    background-color: var(--cinza-claro-fundo);
+    box-shadow: 0 2px 2px rgba(0,0,0,0.15);
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: var(--fonte-poppins);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.cadastro___input::placeholder {
+    color: var(--cinza-claro-fonte-input);
+    text-align: center;
+}
+
+.botao__cadastrar {
+    width: 148px;
+    height: 40px;
+    border: 1px solid var(--vermelho-botao);
+    border-radius: 6px;
+    background-color: var(--vermelho-botao);
+    font-family: var(--fonte-poppins);
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+@media screen and (min-width:768px) {
+    .logo-adopet__item__tablet {
+        left: 260px;
+    }
+
+    .area__de__cadastro {
+        top: 550px;
+    }
+
+    .area__de__cadastro label {
+        padding-bottom: 8px;
+        font-size: 18px;
+    }
+
+    .cadastro___input {
+        width: 344px;
+    }
+
+    .botao__cadastrar {
+        width: 164px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .logo-adopet__item__tablet {
+        left: 600px;
+    }
+
+    .cadastro___input {
+        
+    }
+
+    .input__desktop {
+        width: 550px;
+    }
+}

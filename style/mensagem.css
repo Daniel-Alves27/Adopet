@@ -1,0 +1,102 @@
+.back--envio__dados__mensagem {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    background-color: var(--cinza-claro-fundo);
+    height: 668px;
+    top: 252px;
+    left: 24px;
+    right: 24px;
+    border-radius: 10px;
+
+}
+
+.envio__dados__mensagem {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 32px;
+}
+
+.envio__dados__mensagem label {
+    font-family: var(--fonte-poppins);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: var(--azul-backgroud);
+    padding-bottom: 8px;
+}
+
+.envio__dados__input {
+    width: 280px;
+    height: 48px;
+    border: 1px solid var(--cinza-claro-fundo);
+    border-radius: 6px;
+    background-color: var(--branco);
+    box-shadow: 0 2px 2px rgba(0,0,0,0.15);
+    margin-bottom: 16px;
+    text-align: center;
+    font-family: var(--fonte-poppins);
+    font-size: 12px;
+    font-weight: 400;
+    
+}
+
+input::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza-claro-fonte-input);
+    text-align: left;
+    padding-left: 16px;
+}
+
+.envio__dados__mensagem textarea {
+    resize: none;
+    height: 172px;
+}
+
+textarea::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza-claro-fonte-input);
+    padding-top: 16px;
+    text-align: left;
+    padding-left: 16px;
+}
+
+.envio__dados__mensagem--botao {
+    width: 148px;
+    height: 40px;
+    background-color: var(--vermelho-botao);
+    border: 1px solid var(--vermelho-botao);
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--branco);
+    font-family: var(--fonte-poppins);
+    margin: 32px auto;
+}
+
+
+@media screen and (min-width: 768px) {
+    .back--envio__dados__mensagem {
+        width: 525px;
+        top: 380px;
+        margin: 0 auto;
+    }
+
+    .envio__dados__input {
+        width: 490px;
+    }
+
+    .envio__dados__mensagem--botao {
+        width: 165px;
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+    .back--envio__dados__mensagem {
+        width: 550px;
+    }
+}

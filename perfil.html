@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="segundo__style.css">
+    
+    <title>Perfil</title>
+</head>
+<body>
+    <header>
+        <ul class="menu">
+            <li class="menu-logo"><img src="img/Logo header.svg"></li>
+
+            <li class="menu-item"><a href="index.html"><img src="img/Casa.svg" alt="ir para pagina inicial"></a></li>
+            <li class="menu-item"><a href="mensagens.html"><img src="img/Mensagens.svg" alt="caixa de Mensagens"></a></li>
+            <li class="menu-usuario"><a href="#"><img src="img/Ellipse 2.svg" alt="entrar na minha conta"></a></li>
+        </ul>
+
+        <section class="Introducao__paragrafos__perfil">
+            <p class="paragrafo-item">Esse é o perfil que aparece</br> para responsáveis ou ONGs</br> que recebem sua mensagem.</p>
+        </section>
+    </header>
+
+    <figure class="backgroud__estilo--tablet"><img src="img/home img backgroud.svg"></figure>
+
+    <main>
+        <section class="dados__perfil__backgroud">
+            <section class="foto__perfil__container">
+                <h1>Perfil</h1>
+                <label for="foto">Foto</label>
+                <input type="image" src="img/Ellipse 2.svg" alt="foto de perfil" class="foto__perfil__input">
+                <p>Clique na foto para editar</p>
+            </section>
+
+            <section class="dados__perfil">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" class="perfil__dados__input" placeholder="Joana Magalhães">
+
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" class="perfil__dados__input" placeholder="55 11 XXXXXXXXX">
+
+                    <label for="cidade">Cidade</label>
+                    <input type="text" id="cidade" class="perfil__dados__input" placeholder="São Paulo">
+
+                    <label for="sobre">Sobre</label>
+                    <textarea id="sobre" cols="30" rows="10" class="perfil__dados__input" placeholder="Escreva sua mensagem."></textarea>
+
+                    <input type="button" value="Salvar" class="perfil__botao__salvar">
+            </section>
+        </section>
+    </main>
+
+    <footer class="rodape-pag__perfil">
+        <p class="rodape__paragrafo">2022 - Desenvolvido por Alura.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,185 @@
+/* estilo da home */
+
+header {
+    background-image: url(../img/Vector\ 1.svg),url(../img/Vector\ 4.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 295px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-item {
+    display: flex;
+    align-items: flex-end;
+    padding-left: 48px;
+    padding-top: 48px;
+}
+
+.logo-adopet__item {
+    text-align: center;
+    list-style-type: none;
+    padding-top: 100px;
+    
+}
+
+.Titulo__boas-vindas {
+    text-align: center;
+    font-family: var(--fonte-IBM);
+    color: var(--branco);
+    font-weight: 500;
+    font-size: 26px;
+    padding: 24px 0 16px 0;
+}
+
+ /* estilo pagina de cadastro */
+
+ .logo-adopet__item-azul {
+    text-align: center;
+    list-style-type: none;
+    padding-top: 100px;
+ }
+
+ .Introducao__paragrafos {
+    font-family: var(--fonte-poppins);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--azul-backgroud);
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 24px;
+    width: 312px;
+    margin: 0 auto;
+ }
+
+ .paragrafo-item {
+    padding-bottom: 14px;
+    line-height: 21px;
+ }
+
+/* estilo pagina de login */
+
+
+ .Introducao__paragrafos__login {
+    font-family: var(--fonte-poppins);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--azul-backgroud);
+    text-align: center;
+    padding-top: 57px;
+    padding-bottom: 42px;
+    width: 312px;
+    margin: 0 auto;
+ }
+
+/* estilo da pagina de fichas */
+
+.menu-usuario {
+    position: absolute;
+    top: 40px;
+    right: 37px;
+}
+
+.Introducao__paragrafos__ficha {
+    font-family: var(--fonte-poppins);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--azul-backgroud);
+    text-align: center;
+    padding-top: 83px;
+    padding-bottom: 42px;
+    width: 226px;
+    margin: 0 auto;
+}
+
+/*estilo do perfil*/
+
+.Introducao__paragrafos__perfil {
+    font-family: var(--fonte-poppins);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--azul-backgroud);
+    text-align: center;
+    padding-top: 83px;
+    padding-bottom: 42px;
+    width: 247px;
+    margin: 0 auto;
+}
+
+/*----------------------------------------*/
+
+.menu-logo {
+    display: none;
+}
+
+.logo-adopet__item__tablet {
+    display: none;
+}
+
+/*tablet*/
+
+@media screen and (min-width: 768px) {
+    header {
+        background-image: url(../img/Menu\ header\ Forma\ 1.svg);
+        background-repeat: no-repeat;
+        height: 445px;
+    }
+
+    .menu-logo {
+        display: flex;
+        padding-top: 70px;
+        padding-left: 49px;
+    }
+
+    .menu-item {
+        padding-left: 65px;
+    }
+
+    .logo-adopet__item {
+        padding-top: 175px;
+    }
+
+    .Titulo__boas-vindas {
+        font-size: 28px;
+    }
+
+    /* estilo pagina de cadastro__login */
+
+    .logo-adopet__item__tablet {
+        position: absolute;
+        display: block;
+        top: 250px;
+        list-style-type: none;
+    }
+
+    .logo-adopet__item-azul {
+        display: none;
+    }
+
+    .Introducao__paragrafos {
+        font-size: 18px;
+        padding-top: 275px;
+    }
+
+    .Introducao__paragrafos__login {
+        font-size: 18px;
+        padding-top: 255px;
+    }
+
+    /* estilo da pagina de fichas */
+
+    .Introducao__paragrafos__ficha {
+        padding-top: 200px;
+    }
+
+    /*estilo do perfil*/
+
+    .Introducao__paragrafos__perfil {
+        padding-top: 170px;
+    }
+}

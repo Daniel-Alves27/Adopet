@@ -1,0 +1,67 @@
+.home__backgroud {
+    position: absolute;
+    right: 0;
+    top: 200px;
+}
+
+.backgroud__estilo {
+    position: absolute;
+    top: 410px;
+    left: 0;
+    transform: rotatey(180deg);
+}
+.patas-de-gatos {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+/*---------------------------------*/
+
+.home__backgroud--tablet {
+    display: none;
+}
+
+.patas-de-gatos__tablet {
+    display: none;
+}
+
+.backgroud__estilo--tablet {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .home__backgroud {
+        display: none;
+    }
+    
+    .home__backgroud--tablet {
+        position: absolute;
+        right: 0;
+        top: 30%;
+        display: block;
+    }
+
+    .patas-de-gatos__tablet {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+    }
+
+    .patas-de-gatos {
+        display: none;
+    }
+
+    .backgroud__estilo--tablet {
+        position: absolute;
+        right: 0;
+        top: 30%;
+        display: block;
+    }
+
+    .backgroud__estilo {
+        display: none;
+    }
+}

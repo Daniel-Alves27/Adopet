@@ -1,0 +1,19 @@
+@import url(style/header.css);
+@import url(style/pag-login.css);
+@import url(style/footer.css);
+@import url(style/img_backgroud.css);
+
+:root {
+    --preto: black;
+    --verde-backgroud:#36D6AD;
+    --azul-backgroud: #3772FF;
+    --branco: #FFFFFF;
+    --vermelho-botao: #FC7071;
+    --fonte-poppins:'Poppins';
+    --fonte-IBM: 'IBM Plex Sans';
+}
+
+body {
+    background-color: var(--azul-backgroud);
+}
+

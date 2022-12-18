@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="segundo__style.css">
+    
+    <title>Adopet cadastro</title>
+</head>
+<body>
+    <header>
+        <ul class="menu">
+            <li class="menu-logo"><img src="img/Logo header.svg"></li>
+
+            <li class="menu-item"><a href="index.html"><img src="img/Casa.svg" alt="ir para pagina inicial"></a></li>
+            <li class="menu-item"><a href="#"><img src="img/Mensagens.svg" alt="caixa de Mensagens"></a></li>
+        </ul>
+
+        <section class="logo-adopet">
+            <li class="logo-adopet__item-azul"><img src="img/Logo azul.svg"></li>
+            <li class="logo-adopet__item__tablet"><img src="img/Logo--tablet.svg"></li>
+        </section>
+
+        <section class="Introducao__paragrafos">
+            <p class="paragrafo-item">Ainda não tem cadastro?</p>
+            <p class="paragrafo-item">Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
+        </section>
+    </header>
+
+    <figure class="backgroud__estilo"><img src="img/Forma 2.svg"></figure>
+    <figure class="backgroud__estilo--tablet"><img src="img/home img backgroud.svg"></figure>
+
+    <figure class="patas-de-gatos"><img src="img/Patas.svg"></figure>
+    <figure class="patas-de-gatos__tablet"><img src="img/Patas tablet.svg"></figure>
+
+    <main>
+        <form class="area__de__cadastro">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" class="cadastro___input  input__desktop" placeholder="Escolha seu melhor email" required>
+            
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" class="cadastro___input  input__desktop" placeholder="Digite seu nome completo" required>
+            
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" class="cadastro___input" placeholder="Crie uma senha" required>
+            
+            <label for="confirmasuasenha">Confirma sua Senha</label>
+            <input type="password" id="confirmasuasenha" class="cadastro___input" placeholder="Repita a senha criada acima" required>
+            
+            <input type="submit" value="Cadastrar" class="botao__cadastrar">
+        </form>
+    </main>
+
+    <footer class="rodape-cadastro__login">
+        <p class="rodape__paragrafo">2022 - Desenvolvido por Alura.</p>
+    </footer>
+</body>
+</html>

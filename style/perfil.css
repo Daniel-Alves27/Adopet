@@ -1,0 +1,152 @@
+.dados__perfil__backgroud {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    background-color: var(--cinza-claro-fundo);
+    height: 825px;
+    top: 252px;
+    left: 24px;
+    right: 24px;
+    border-radius: 10px;
+}
+
+/* abaixo está o estilo da area da foto de perfil*/
+
+.foto__perfil__container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+
+.foto__perfil__container h1 {
+    font-family: var(--fonte-poppins);
+    font-size: 21px;
+    font-weight: 600;
+    color: var(--cinza-escuro);
+    padding-top: 32px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.foto__perfil__container label {
+    font-family: var(--fonte-poppins);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: var(--azul-backgroud);
+}
+
+.foto__perfil__input {
+    min-width: 80px;
+    min-height: 80px;
+    margin: 0 auto;
+}
+
+.foto__perfil__container p {
+    font-family: var(--fonte-poppins);
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--vermelho-botao);
+    padding-top: 4px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+/*abaixo está o estilo dos dados do perfil */
+
+.dados__perfil {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 200px;
+}
+
+.dados__perfil label {
+    font-family: var(--fonte-poppins);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: var(--azul-backgroud);
+    padding-bottom: 8px;
+}
+
+.perfil__dados__input {
+    width: 280px;
+    height: 48px;
+    border: 1px solid var(--cinza-claro-fundo);
+    border-radius: 6px;
+    background-color: var(--branco);
+    box-shadow: 0 2px 2px rgba(0,0,0,0.15);
+    margin-bottom: 16px;
+    text-align: center;
+    font-family: var(--fonte-poppins);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+input::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza-claro-fonte-input);
+    text-align: left;
+    padding-left: 16px;
+}
+
+.dados__perfil textarea {
+    resize: none;
+    height: 172px;
+}
+
+textarea::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza-claro-fonte-input);
+    padding-top: 16px;
+    text-align: left;
+    padding-left: 16px;
+}
+
+.perfil__botao__salvar {
+    width: 148px;
+    height: 40px;
+    background-color: var(--vermelho-botao);
+    border: 1px solid var(--vermelho-botao);
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--branco);
+    font-family: var(--fonte-poppins);
+    margin: 32px auto;
+}
+
+@media screen and (min-width: 768px) {
+    .dados__perfil__backgroud {
+        width: 525px;
+        left: 120px;
+        right: 120px;
+        top: 365px;
+    }
+
+    .foto__perfil__container {
+        width: 525px;
+    }
+
+    .foto__perfil__container label {
+        padding-left: 16px;
+    }
+
+    .perfil__dados__input {
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .dados__perfil__backgroud {
+        width: 550px;
+        left: 440px;
+        right: 440px;
+        top: 340px;
+    }
+
+}

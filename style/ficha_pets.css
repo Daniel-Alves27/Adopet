@@ -1,0 +1,103 @@
+.ficha__pets {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 224px;
+    z-index: 0;
+}
+
+.ficha__pets__item {
+    display: flex;
+    width: 100%;
+    height: 196px;
+    background-color: var(--cinza-claro-fundo);
+    margin-top: 16px;
+}
+
+.ficha__pets__item .Foto__pet {
+    max-width: 148px;
+    max-height: 148px;
+    padding: 24px 0 0 24px;
+}
+
+.ficha__pets__item__texto h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--azul-backgroud);
+    font-family: var(--fonte-poppins);
+    padding: 16px 18px 8px 16px;
+}
+
+.ficha__pets__item__texto p {
+    width: 160px;
+    padding-left: 16px;
+    font-family: var(--fonte-poppins);
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza-escuro);
+    line-height: 20px;
+}
+
+/*região---imagem icone mensagem---falar com responsável*/
+
+.ficha__pets__item__texto h3 {
+    padding: 30px 0 0 16px;
+    font-family: var(--fonte-poppins);
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--cinza-escuro);
+}
+
+.ficha__pets__item__paragrafo {
+    display: flex; 
+    padding-left: 16px;
+    padding-top: 8px;
+}
+
+.ficha__pets__item__paragrafo h4 {
+    font-size: 10px;
+    font-weight: 400;
+    font-family: var(--fonte-poppins);
+    color: var(--cinza-escuro);  
+}
+
+.ficha__pets__item__paragrafo img {
+    padding-right: 8px;
+    
+}
+
+@media screen and (min-width: 768px) {
+    .menu-usuario {
+        top: 60px;
+        right: 45px;
+    }
+
+    .ficha__pets {
+        position: absolute;
+        top: 380px;
+        left: 32px;
+        right: 32px;
+        width: auto;
+    }
+
+    .ficha--tablet {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .ficha__pets__item {
+        width: 344px;
+        margin-right: 16px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .ficha__pets {
+        left: 160px;
+        right: 160px;
+        height: 710px;
+        flex-wrap: wrap;
+    }
+}
