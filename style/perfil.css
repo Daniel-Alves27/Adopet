@@ -1,22 +1,21 @@
 .dados__perfil__backgroud {
-    position: absolute;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     background-color: var(--cinza-claro-fundo);
     height: 825px;
-    top: 252px;
-    left: 24px;
-    right: 24px;
     border-radius: 10px;
+    margin: 0 20px;
+    margin-bottom: 5em;
 }
 
 /* abaixo está o estilo da area da foto de perfil*/
 
 .foto__perfil__container {
-    position: absolute;
     display: flex;
     flex-direction: column;
     width: 280px;
+    margin: 0 auto;
 }
 
 .foto__perfil__container h1 {
@@ -56,10 +55,9 @@
 /*abaixo está o estilo dos dados do perfil */
 
 .dados__perfil {
-    position: absolute;
     display: flex;
     flex-direction: column;
-    top: 200px;
+    margin: 0 auto;
 }
 
 .dados__perfil label {
@@ -122,10 +120,9 @@ textarea::placeholder {
 
 @media screen and (min-width: 768px) {
     .dados__perfil__backgroud {
-        width: 525px;
-        left: 120px;
-        right: 120px;
-        top: 365px;
+        width: 550px;
+        margin: 0 auto;
+        margin-bottom: 5em;
     }
 
     .foto__perfil__container {
@@ -144,9 +141,5 @@ textarea::placeholder {
 @media screen and (min-width: 1440px) {
     .dados__perfil__backgroud {
         width: 550px;
-        left: 440px;
-        right: 440px;
-        top: 340px;
     }
-
 }

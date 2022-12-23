@@ -1,129 +1,15 @@
-/*footer da home, utilizado apenas para posicionar imagem dos pets*/
-
-.container__pets img {
-    position: absolute;
-    left: 15%;
-    top: 540px;
-}
-
-.rodape{
-    position: absolute;
+.rodape {
     background-color: var(--verde-backgroud);
-    font-family: var(--fonte-poppins);
-    font-size: 16px;
-    color: var(--branco);
-    font-weight: 400;
-    height: 104px;
-    width: 100%;
-    top: 813px;
-    z-index: 0;
+    position: relative;
+    text-align: center;
+    padding: 2em 0;
+
 }
 
 .rodape__paragrafo{
+    font-family: var(--fonte-poppins);
+    font-size: 16px;
+    color: var(--branco);
+    font-weight: 400;
     text-align: center;
-    padding-top: 41px;
-}
-
-/*o estilo abaixo é do footer da pagina de login e cadastro*/
-
-.rodape-cadastro__login {
-    position: absolute;
-    background-color: var(--verde-backgroud);
-    font-family: var(--fonte-poppins);
-    font-size: 16px;
-    color: var(--branco);
-    font-weight: 400;
-    height: 104px;
-    width: 100%;
-    top: 870px;
-}
-
-/*rodapé da ficha de pets*/
-
-.rodape-ficha__pets {
-    position: absolute;
-    background-color: var(--verde-backgroud);
-    font-family: var(--fonte-poppins);
-    font-size: 16px;
-    color: var(--branco);
-    font-weight: 400;
-    height: 104px;
-    width: 100%;
-    top: 2120px;
-}
-
-/*rodapé pagina de mensagem*/
-
-.rodape-pag__mensagem {
-    position: absolute;
-    background-color: var(--verde-backgroud);
-    font-family: var(--fonte-poppins);
-    font-size: 16px;
-    color: var(--branco);
-    font-weight: 400;
-    height: 104px;
-    width: 100%;
-    top: 935px;
-}
-
-/*rodapé pagina de perfil*/
-
-.rodape-pag__perfil {
-    position: absolute;
-    background-color: var(--verde-backgroud);
-    font-family: var(--fonte-poppins);
-    font-size: 16px;
-    color: var(--branco);
-    font-weight: 400;
-    height: 104px;
-    width: 100%;
-    top: 1093px;
-}
-
-@media screen and (min-width: 768px) {
-    .container__pets img {
-        top: 815px;
-        left: 30%;
-    }
-    
-    .rodape {
-        top: 1100px;
-    }
-
-    /*estilo pagina de login e cadastro*/
-
-    .rodape-cadastro__login {
-        top: 1100px;
-    }
-
-    /*rodapé da ficha de pets*/
-
-    .rodape-ficha__pets {
-        top: 1470px;
-    }
-
-    /*rodapé pagina de mensagem*/
-
-    .rodape-pag__mensagem {
-        top: 1100px;
-    }
-
-    /*rodapé pagina de perfil*/
-
-    .rodape-pag__perfil {
-        top: 1200px;
-    }
-}
-
-@media screen and (min-width: 1440px) {
-    .container__pets img {
-        top: 815px;
-        left: 40%;
-    }
-
-    /*rodapé da ficha de pets*/
-
-    .rodape-ficha__pets {
-        top: 1050px;
-    }
 }

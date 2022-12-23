@@ -1,15 +1,4 @@
-/* estilo da home */
-
-header {
-    background-image: url(../img/Vector\ 1.svg),url(../img/Vector\ 4.svg);
-    background-repeat: no-repeat;
-    position: absolute;
-    height: 295px;
-    left: 0;
-    right: 0;
-    z-index: 1;
-}
-
+/* estilo dos icones */
 .menu {
     display: flex;
 }
@@ -21,12 +10,15 @@ header {
     padding-top: 48px;
 }
 
-.logo-adopet__item {
+/* posição do logo da pagina inicial */
+
+.logoBrancoContainer {
     text-align: center;
     list-style-type: none;
-    padding-top: 100px;
-    
+    padding-top: 100px; 
 }
+
+/* Boas vindas pagina inicial*/
 
 .Titulo__boas-vindas {
     text-align: center;
@@ -37,7 +29,7 @@ header {
     padding: 24px 0 16px 0;
 }
 
- /* estilo pagina de cadastro */
+ /* estilo do logo azul da pagina de login e cadastro */
 
  .logo-adopet__item-azul {
     text-align: center;
@@ -45,13 +37,15 @@ header {
     padding-top: 100px;
  }
 
+ /* estilo de todos os paragrafos*/
+
  .Introducao__paragrafos {
     font-family: var(--fonte-poppins);
     font-size: 16px;
     font-weight: 400;
     color: var(--azul-backgroud);
     text-align: center;
-    padding-top: 25px;
+    padding-top: 6em;
     padding-bottom: 24px;
     width: 312px;
     margin: 0 auto;
@@ -62,74 +56,30 @@ header {
     line-height: 21px;
  }
 
-/* estilo pagina de login */
-
-
- .Introducao__paragrafos__login {
-    font-family: var(--fonte-poppins);
-    font-size: 16px;
-    font-weight: 400;
-    color: var(--azul-backgroud);
-    text-align: center;
-    padding-top: 57px;
-    padding-bottom: 42px;
-    width: 312px;
-    margin: 0 auto;
- }
-
-/* estilo da pagina de fichas */
+/* posição icone de perfil */
 
 .menu-usuario {
     position: absolute;
     top: 40px;
-    right: 37px;
-}
-
-.Introducao__paragrafos__ficha {
-    font-family: var(--fonte-poppins);
-    font-size: 16px;
-    font-weight: 400;
-    color: var(--azul-backgroud);
-    text-align: center;
-    padding-top: 83px;
-    padding-bottom: 42px;
-    width: 226px;
-    margin: 0 auto;
-}
-
-/*estilo do perfil*/
-
-.Introducao__paragrafos__perfil {
-    font-family: var(--fonte-poppins);
-    font-size: 16px;
-    font-weight: 400;
-    color: var(--azul-backgroud);
-    text-align: center;
-    padding-top: 83px;
-    padding-bottom: 42px;
-    width: 247px;
-    margin: 0 auto;
+    right: 13%;
 }
 
 /*----------------------------------------*/
-
+/* logo branco da home*/
 .menu-logo {
     display: none;
 }
 
+/* logo azul da pagina de cadastro e login*/
 .logo-adopet__item__tablet {
     display: none;
 }
 
+/*----------------------------------------*/
+
 /*tablet*/
 
 @media screen and (min-width: 768px) {
-    header {
-        background-image: url(../img/Menu\ header\ Forma\ 1.svg);
-        background-repeat: no-repeat;
-        height: 445px;
-    }
-
     .menu-logo {
         display: flex;
         padding-top: 70px;
@@ -140,46 +90,40 @@ header {
         padding-left: 65px;
     }
 
-    .logo-adopet__item {
+    /* posição do logo da pagina inicial */
+
+    .logoBrancoContainer {
         padding-top: 175px;
     }
+
+    /* Boas vindas pagina inicial*/
 
     .Titulo__boas-vindas {
         font-size: 28px;
     }
 
-    /* estilo pagina de cadastro__login */
+    /* posição do logo da pagina de cadastro e login */
 
     .logo-adopet__item__tablet {
-        position: absolute;
         display: block;
-        top: 250px;
-        list-style-type: none;
+        text-align: center;
+        padding-top: 10em;
     }
 
     .logo-adopet__item-azul {
         display: none;
     }
 
+    /* ________________________ */
+
     .Introducao__paragrafos {
         font-size: 18px;
-        padding-top: 275px;
     }
 
-    .Introducao__paragrafos__login {
-        font-size: 18px;
-        padding-top: 255px;
-    }
+    /* posição icone de perfil */
 
-    /* estilo da pagina de fichas */
-
-    .Introducao__paragrafos__ficha {
-        padding-top: 200px;
-    }
-
-    /*estilo do perfil*/
-
-    .Introducao__paragrafos__perfil {
-        padding-top: 170px;
+    .menu-usuario {
+        top: 40px;
+        right: 13%;
     }
 }

@@ -1,19 +1,13 @@
 .ficha__pets {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 224px;
-    z-index: 0;
+    gap: 16px;
 }
 
 .ficha__pets__item {
     display: flex;
-    width: 100%;
     height: 196px;
     background-color: var(--cinza-claro-fundo);
-    margin-top: 16px;
 }
 
 .ficha__pets__item .Foto__pet {
@@ -69,35 +63,22 @@
 }
 
 @media screen and (min-width: 768px) {
-    .menu-usuario {
-        top: 60px;
-        right: 45px;
-    }
-
     .ficha__pets {
-        position: absolute;
-        top: 380px;
-        left: 32px;
-        right: 32px;
-        width: auto;
-    }
-
-    .ficha--tablet {
-        display: flex;
         flex-direction: row;
-    }
-
-    .ficha__pets__item {
-        width: 344px;
-        margin-right: 16px;
+        flex-wrap: wrap;
+        height: 120vh;
+        margin: 0 auto;
+        width: 720px;
+        padding-bottom: 8em;
     }
 }
 
 @media screen and (min-width: 1440px) {
     .ficha__pets {
-        left: 160px;
-        right: 160px;
-        height: 710px;
-        flex-wrap: wrap;
+        width: 70em;
+        height: 70vh;
+    }
+    .ficha__pets__item {
+        margin: 0 auto;
     }
 }

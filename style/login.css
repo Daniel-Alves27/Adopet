@@ -1,11 +1,8 @@
 .area__de__login {
-    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
-    left: 24px;
-    right: 24px;
-    top: 352px;
+    margin-bottom: 15em;
 }
 
 .area__de__login label {
@@ -58,7 +55,7 @@
 
 @media screen and (min-width: 768px) {
     .area__de__login {
-        top: 420px;
+        margin-bottom: 20em;
     }
 
     .area__de__login label {
@@ -78,10 +75,6 @@
 
 
 @media screen and (min-width: 1440px) {
-    .logo-adopet__item__tablet {
-        left: 600px;
-    }
-
     .input__desktop {
         width: 550px;
     }

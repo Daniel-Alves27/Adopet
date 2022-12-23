@@ -1,7 +1,12 @@
 @import url(style/header.css);
-@import url(style/pag-login.css);
+@import url(style/home.css);
 @import url(style/footer.css);
+@import url(style/cadastro.css);
 @import url(style/img_backgroud.css);
+@import url(style/login.css);
+@import url(style/ficha_pets.css);
+@import url(style/mensagem.css);
+@import url(style/perfil.css);
 
 :root {
     --preto: black;
@@ -11,9 +16,11 @@
     --vermelho-botao: #FC7071;
     --fonte-poppins:'Poppins';
     --fonte-IBM: 'IBM Plex Sans';
+    --cinza-claro-fundo: #F6F6F6;
+    --cinza-escuro: #737380;
+    --cinza-claro-fonte-input: #BCBCBC;
 }
 
-body {
+.backgroundHome {
     background-color: var(--azul-backgroud);
 }
-

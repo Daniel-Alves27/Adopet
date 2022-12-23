@@ -1,67 +1,46 @@
-.home__backgroud {
-    position: absolute;
-    right: 0;
-    top: 200px;
+.backgroundHome {
+    background-image: url(../img/Vector\ 1.svg),url(../img/Vector\ 4.svg),url(../img/Ilustração\ 1.svg),url(../img/Forma\ 2.svg);
+    background-repeat: no-repeat;
+    background-position: left top, left top,bottom 3em center,center right;
 }
 
-.backgroud__estilo {
-    position: absolute;
-    top: 410px;
-    left: 0;
-    transform: rotatey(180deg);
-}
-.patas-de-gatos {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 1;
+.backgroud_login_cadastro {
+    background-image: url(../img/Patas.svg),url(../img/Vector\ 1.svg),url(../img/Vector\ 4.svg),url(../img/Forma\ 2\ inverte.svg);
+    background-repeat: no-repeat;
+    background-position:right top, left top, left top,left bottom 33%;
 }
 
-/*---------------------------------*/
-
-.home__backgroud--tablet {
-    display: none;
+.backgroud__mensagem {
+    background-image: url(../img/Vector\ 1.svg),url(../img/Vector\ 4.svg);
+    background-repeat: no-repeat;
 }
 
-.patas-de-gatos__tablet {
-    display: none;
-}
-
-.backgroud__estilo--tablet {
-    display: none;
+.backgroud_ficha_perfil {
+    background-image: url(../img/Vector\ 1.svg),url(../img/Vector\ 4.svg);
+    background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 768px) {
-    .home__backgroud {
-        display: none;
-    }
-    
-    .home__backgroud--tablet {
-        position: absolute;
-        right: 0;
-        top: 30%;
-        display: block;
+    .backgroundHome {
+        background-image: url(../img/Menu\ header\ Forma\ 1.svg),url(../img/home\ img\ backgroud.svg),url(../img/Ilustração\ 1.svg);
+        background-position: left top, right, bottom 3em center;
     }
 
-    .patas-de-gatos__tablet {
-        position: absolute;
-        top: 0;
-        right: 0;
-        display: block;
+    .backgroud_login_cadastro {
+        background-image: url(../img/Menu\ header\ Forma\ 1.svg),url(../img/home\ img\ backgroud.svg),url(../img/Patas\ tablet.svg);
+        background-repeat: no-repeat;
+        background-position: left top,right bottom 35%, top right;
     }
 
-    .patas-de-gatos {
-        display: none;
+    .backgroud__mensagem {
+        background-image: url(../img/Menu\ header\ Forma\ 1.svg),url(../img/home\ img\ backgroud.svg);
+        background-repeat: no-repeat;
+        background-position: top left,center right;
     }
 
-    .backgroud__estilo--tablet {
-        position: absolute;
-        right: 0;
-        top: 30%;
-        display: block;
-    }
-
-    .backgroud__estilo {
-        display: none;
+    .backgroud_ficha_perfil {
+        background-image: url(../img/Menu\ header\ Forma\ 1.svg),url(../img/home\ img\ backgroud.svg);
+        background-repeat: no-repeat;
+        background-position: top left,center right;
     }
 }

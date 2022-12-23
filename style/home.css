@@ -1,5 +1,4 @@
 .About__adopet {
-    position: absolute;
     text-align: center;
     font-family: var(--fonte-poppins);
     color: var(--branco);
@@ -10,18 +9,14 @@
     margin: 0 auto;
     padding-bottom: 24px;
     top: 318px;
-    left: 0;
-    right: 0;
 }
 
 .botao-cadastro__login {
-    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
-    top: 424px;
-    left: 0;
-    right: 0;
+    top: 330px;
+    margin-bottom: 19em;
 }
 
 .botao__item {
@@ -35,6 +30,7 @@
     font-family: var(--fonte-poppins);
     color: var(--branco);
     margin-bottom: 16px;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {

@@ -1,11 +1,8 @@
 .area__de__cadastro {
-    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
-    left: 24px;
-    right: 24px;
-    top: 340px;
+    margin-bottom: 10em;
 }
 
 .area__de__cadastro label {
@@ -50,12 +47,8 @@
 }
 
 @media screen and (min-width:768px) {
-    .logo-adopet__item__tablet {
-        left: 260px;
-    }
-
     .area__de__cadastro {
-        top: 550px;
+        margin-top: 1em;
     }
 
     .area__de__cadastro label {
@@ -73,14 +66,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .logo-adopet__item__tablet {
-        left: 600px;
-    }
-
-    .cadastro___input {
-        
-    }
-
     .input__desktop {
         width: 550px;
     }

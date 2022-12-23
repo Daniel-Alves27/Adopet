@@ -1,21 +1,16 @@
 .back--envio__dados__mensagem {
-    position: absolute;
     display: flex;
     justify-content: center;
     background-color: var(--cinza-claro-fundo);
     height: 668px;
-    top: 252px;
-    left: 24px;
-    right: 24px;
     border-radius: 10px;
-
+    margin-bottom: 5em;
 }
 
 .envio__dados__mensagem {
-    position: absolute;
     display: flex;
     flex-direction: column;
-    top: 32px;
+    padding-top: 1em;
 }
 
 .envio__dados__mensagem label {
@@ -80,9 +75,10 @@ textarea::placeholder {
 
 @media screen and (min-width: 768px) {
     .back--envio__dados__mensagem {
-        width: 525px;
+        width: 550px;
         top: 380px;
         margin: 0 auto;
+        margin-bottom: 5em;
     }
 
     .envio__dados__input {
@@ -93,7 +89,6 @@ textarea::placeholder {
         width: 165px;
     }
 }
-
 
 @media screen and (min-width: 1440px) {
     .back--envio__dados__mensagem {
