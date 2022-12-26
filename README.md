@@ -12,4 +12,4 @@ Projeto criado durante o challenge da alura.
 | :fire: Desafio     | https://www.alura.com.br/challenges/front-end-4?host=https://cursos.alura.com.br
 
 
-![](https://i.imgur.com/xDq6Phy.png)
+![](https://i.imgur.com/xDq6Phy.png#vitrinedev)
